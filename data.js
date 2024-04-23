@@ -1,6 +1,7 @@
 [
     {
         "vijest":"",
-        "slika":""
+        "slika":"",
+        
     }
 ]
