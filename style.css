@@ -71,3 +71,21 @@ i{
 footer p{
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    main {
+        padding: 10px;
+    }
+
+    .footerlokacije,
+    .footerikone {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerlokacije li,
+    .footerikone li {
+        margin: 10px 0;
+    }
+}
