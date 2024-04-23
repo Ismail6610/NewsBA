@@ -58,11 +58,13 @@ footer{
 .alignemnt-icons{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     width: 30vw;
-    justify-content: space-between;
+    padding: 10px;
 }
 i{
-    font-family: 50px;
+    font-size: 50px;
+    
 }
 
 footer p{
