@@ -202,19 +202,13 @@ header{
     cursor: pointer; ;
 }
 @media only screen and (max-width: 768px) {
-    header {
-        padding: 5px;
-    }
-
-    .header-topics {
-        justify-content: center;
-    }
-    .header{
+    .ContainerRow2 {
         flex-direction: column;
     }
     .footerlokacije,
-    .footerikone {
-        flex-direction: column;
-        align-items: center;
+    
+
+    .news-container {
+        width: calc(100% - 40px);
     }
 }
