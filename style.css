@@ -209,7 +209,9 @@ header{
     .header-topics {
         justify-content: center;
     }
-
+    .header{
+        flex-direction: column;
+    }
     .footerlokacije,
     .footerikone {
         flex-direction: column;
