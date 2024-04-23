@@ -10,6 +10,8 @@ p{
 h1{
     background-color: grey;
     color:white;
+    width:40px;
+    height:20px;
 }
 footer{
     width: 100vw;
