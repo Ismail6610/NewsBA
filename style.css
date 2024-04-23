@@ -61,6 +61,10 @@ footer{
     width: 30vw;
     justify-content: space-between;
 }
-.i{
+i{
     font-family: 50px;
+}
+
+footer p{
+    color: white;
 }
