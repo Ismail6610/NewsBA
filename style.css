@@ -9,10 +9,6 @@ body{
     width: 100vw;
 }
 
-p{
-    color: black;
-    background-color:gray;
-}
 
 h1{
     background-color: grey;
@@ -21,6 +17,7 @@ h1{
     height:20px;
 }
 footer{
+    border-top: 1px solid white;
     width: 100vw;
     height: 30vh;
     top:70vh;
@@ -47,4 +44,23 @@ footer{
 .lokacija-a{
     color: white;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footerikone{
+    list-style-type: none;
+    color: white;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+.alignemnt-icons{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-between;
+}
+.i{
+    font-family: 50px;
 }
