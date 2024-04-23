@@ -1,5 +1,12 @@
+*{
+    font-family: Poppins;
+}
+
 body{
     background-color: #222;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 p{
@@ -16,8 +23,8 @@ h1{
 footer{
     width: 100vw;
     height: 30vh;
-    position:fixed;
-    top:80vh;
+    top:70vh;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,4 +38,13 @@ footer{
     align-items: center;
     justify-content: space-between;
     
+}
+.lokacija{
+    color: gray;
+    text-decoration: none;
+    list-style-type: none;
+}
+.lokacija-a{
+    color: white;
+    text-decoration: none;
 }
