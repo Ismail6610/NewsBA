@@ -1,8 +1,16 @@
+body{
+    background-color: #222;
+}
+
 p{
     color: black;
     background-color:gray;
 }
 
+h1{
+    background-color: grey;
+    color:white;
+}
 footer{
     width: 100vw;
     height: 30vh;
@@ -16,7 +24,9 @@ footer{
 .footerlokacije{
     display:flex ;
     flex-direction: row;
-    width: 100vw;
+    width: 70vw;
     height: 10vh;
+    align-items: center;
+    justify-content: space-between;
     
 }
