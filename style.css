@@ -205,6 +205,8 @@ header{
     .ContainerRow2 {
         flex-direction: column;
     }
+    .footerlokacije,
+    
 
     .news-container {
         width: calc(100% - 40px);
