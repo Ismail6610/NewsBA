@@ -44,7 +44,7 @@ footer{
 .lokacija-a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
 }
 
@@ -64,28 +64,10 @@ footer{
     padding: 10px;
 }
 i{
-    font-size: 50px;
+    font-size: 3vw;
     
 }
 
 footer p{
     color: white;
-}
-
-@media only screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens */
-    main {
-        padding: 10px;
-    }
-
-    .footerlokacije,
-    .footerikone {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footerlokacije li,
-    .footerikone li {
-        margin: 10px 0;
-    }
 }
