@@ -80,25 +80,25 @@ footer p{
     background-color: #333; /
     padding: 20px; 
     border-radius: 10px; /
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .news-container {
     width: calc(50% - 10px);
     border-radius: 10px;
-    overflow: hidden; /* Ensure content stays within container */
+    overflow: hidden; 
 }
 
 .news-container img {
     width: 100%;
     height: auto;
-    border-top-left-radius: 10px; /* Rounded corners for image */
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .news-content {
-    padding: 20px; /* Add padding inside container */
-    background-color: #444; /* Add background color to content */
+    padding: 20px; 
+    background-color: #444; 
 }
 
 .news-content h2 {
@@ -109,7 +109,7 @@ footer p{
 
 .news-content p {
     font-size: 16px;
-    color: #ddd; /* Lighten text color */
+    color: #ddd; 
     margin-bottom: 15px;
 }
 
@@ -123,7 +123,66 @@ footer p{
     text-decoration: underline;
 }
 
+*/
 
+.ContainerRow2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.news-container {
+    width: calc(50% - 20px); /* Adjusted width */
+    margin: 10px; /* Add some margin between containers */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #444; /* Background color for container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.news-container:hover {
+    transform: translateY(-5px); /* Move container up on hover */
+}
+
+.news-container img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.news-content p {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
 header{
     width: 100vw;
     height: 15vh;
