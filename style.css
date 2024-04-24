@@ -6,15 +6,10 @@ body{
     background-color: #222;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 
-h1{
-    background-color: grey;
-    color:white;
-    width:40px;
-    height:20px;
-}
 footer{
     border-top: 1px solid white;
     width: 100vw;
@@ -44,7 +39,6 @@ footer{
     color: white;
     text-decoration: none;
     font-size: 1vw;
-    font-weight: bold;
 }
 
 .footerikone{
