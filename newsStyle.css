@@ -1,9 +1,4 @@
-.ContainerRow2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
+
 
 .news-container {
     margin-bottom: 20px;
@@ -56,23 +51,17 @@
 }
 
 
-.news1{
-    display: flex;
-    flex-direction: row;
-}
-
-/* dawda */
+/* Big container style css ------------------------------------------------------------ */
 .bigNews-container {
     margin-bottom: 20px;
     border-radius: 10px;
     overflow: hidden;
-    position: relative; /* Set position to relative */
+    position: relative; 
     width: 40vw;
     height: 50vh;
     background-color: #444;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    margin-top: -300px;
 }
 
 .bigNews-container:hover {
@@ -157,5 +146,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }

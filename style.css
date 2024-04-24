@@ -16,7 +16,7 @@ footer{
     border-top: 1px solid white;
     width: 100vw;
     height: 30vh;
-    top:70vh;
+    
     position: relative;
     display: flex;
     flex-direction: column;
@@ -45,11 +45,11 @@ footer{
 }
 
 .lokacija:hover {
-    background-color: white; /* Change background color on hover */
+    background-color: white;
 }
 
 .lokacija:hover .lokacija-a{
-   color:#222; /* Change background color on hover */
+   color:#222; 
 }
 
 .lokacija-a{
@@ -113,10 +113,14 @@ header{
         width: calc(100% - 40px);
     }
 }
-.main{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+#search{
+    width: 20vw;
+    height: 5vh;
+    border-radius:20px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    margin-top: -300px;
 }
