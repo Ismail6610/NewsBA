@@ -1,4 +1,4 @@
-
+/*
 const contentArray = [
     {
         "vijest":"SUDAR NA CESTI",
@@ -38,3 +38,4 @@ contentArray.forEach(item => {
 
     containerDisplay.appendChild(newsContainer);
 });
+*/

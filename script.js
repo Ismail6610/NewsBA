@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', function() {
     const newsList = document.querySelector('.container');
 
@@ -37,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             filterNews(search);
         }
-    });*/
+    });
 
 
     const newsData = [
@@ -99,3 +100,4 @@ document.addEventListener('DOMContentLoaded', function() {
     displayNews(newsDataBig);
 });
 
+*/

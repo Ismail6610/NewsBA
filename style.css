@@ -67,24 +67,30 @@ footer p{
 }
 
 
+
+.ContainerRow2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .news-container {
-    width: 15vw;
-    margin: 10px; /* Add some margin between containers */
+    margin-bottom: 20px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #444; /* Background color for container */
+    background-color: #444;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease; /* Smooth transition on hover */
-    height: 40vh;
+    transition: transform 0.3s ease;
 }
 
 .news-container:hover {
-    transform: translateY(-5px); /* Move container up on hover */
+    transform: translateY(-5px);
 }
 
 .news-container img {
     width: 100%;
-    height: auto;
+    height: 200px; /* include this comment  from before verz improtnat ovjde mnjeamjo velicnu slike*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -94,14 +100,12 @@ footer p{
 }
 
 .news-content h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
-    color: white;
 }
 
 .news-content p {
-    font-size: 16px;
-    color: #ddd;
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
