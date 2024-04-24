@@ -1,12 +1,21 @@
-/*
+
 document.addEventListener('DOMContentLoaded', function() {
     const newsList = document.querySelector('.container');
 
     function displayNews(news) {
         newsList.innerHTML=' ';
+        let rowContainer;
 
 
-        news.forEach(newsItem => {
+        news.forEach((newsItem,index) => {
+
+            if(index%3===0){
+                rowContainer=document.createElement('div');
+                rowContainer.classList.add('row');
+                newsList.appendChild(rowContainer);
+            }
+
+
             const newItem = document.createElement('div');
             newItem.classList.add('news');
 
@@ -22,23 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
 
             newsList.appendChild(newItem);
+
         });
-    }
-    /*function filterNews(search) {
-        const filteredNews = newsData.filter(newsItem => newsItem.title.toLowerCase().includes(search.toLowerCase()));
-        displayNews(filteredNews);
-    }
-
-
+}
     
-    document.getElementById('search').addEventListener('input', function() {
-        const search = this.value.trim();
-        if (search === '') {
-            displayNews(newsData); 
-        } else {
-            filterNews(search);
-        }
-    });
 
 
     const newsData = [
@@ -53,7 +49,32 @@ document.addEventListener('DOMContentLoaded', function() {
             title:"BEZOBRAZNI TAKSISTA",
             description:"Taksista optuzen za pljackanje zene(36) u Sarajevu...",
             link:"./vijesti/taksi.html"
-        }
+        },
+        {
+            imageUrl: "./assets/klix.jpg",
+            title: "SUDAR NA CESTI",
+            description: "U jutarnjim satima desila se nesreća...",
+            link: "./vijesti/sudar.html"
+        },
+        {
+            imageUrl: "./assets/klix.jpg",
+            title: "SUDAR NA CESTI",
+            description: "U jutarnjim satima desila se nesreća...",
+            link: "./vijesti/sudar.html"
+        },
+        {
+            imageUrl:"./assets/klix1.jpg",
+            title:"BEZOBRAZNI TAKSISTA",
+            description:"Taksista optuzen za pljackanje zene(36) u Sarajevu...",
+            link:"./vijesti/taksi.html"
+        },
+        {
+            imageUrl: "./assets/klix.jpg",
+            title: "SUDAR NA CESTI",
+            description: "U jutarnjim satima desila se nesreća...",
+            link: "./vijesti/sudar.html"
+        },
+        
     ];
 
 
@@ -72,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             newItem.innerHTML = `
             <div class="bigNews-container">
+            <div class="image-overlay"></div>
                 <img src="${newsItem2.imageUrl}" alt="Image">
                 <div class="bigNews-content">
                     <h2>${newsItem2.title}</h2>
@@ -94,10 +116,9 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "HAOS NA GRBAVICI",
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
             link: "./vijesti/sudar.html"
-        }
+        },
     ];
 
     displayNews(newsDataBig);
 });
 
-*/
