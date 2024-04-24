@@ -125,6 +125,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 3px white;
+    margin-bottom: 50px;
 }
 .header-topics{
     display: flex;
