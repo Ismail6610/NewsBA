@@ -1,3 +1,10 @@
+:root{
+   --primary:white;
+   --text:#007bff;
+}
+
+
+
 *{
     font-family: Poppins;
 }
