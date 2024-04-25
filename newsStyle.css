@@ -1,55 +1,62 @@
-
-
 .news-container {
-    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    flex: 0 0 calc(50% - 20px); /* Adjusted width for two containers in a row */
+    margin-bottom: 20px; /* Add some margin between containers */
     border-radius: 10px;
     overflow: hidden;
-    background-color: #444;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    width: 15vw;
-    height: 40vh;
-    margin: 20px;
-
+    position: relative; /* Add position relative to the container */
+    height: 300px; /* Set a fixed height for the container */
+    width: 100%; /* Set a fixed width for the container */
 }
 
 .news-container:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Move container up on hover */
 }
 
 .news-container img {
     width: 100%;
-    height: 200px; 
+    height: 100%; /* Make the image cover the entire container */
+    object-fit: cover;
+     /* Ensure the image covers the container without distortion */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for overlay */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
 .news-content {
-    padding: 20px;
+    position: absolute;
+    bottom: 20px; /* Adjust position of text content */
+    left: 20px; /* Adjust position of text content */
+    color: white;
+    z-index: 1; /* Ensure text content appears above overlay */
 }
 
 .news-content h2 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 10px;
-    color: white;
 }
 
 .news-content p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 15px;
-    color: white;
 }
-
-.read-more {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
-
 
 /* Big container style css ------------------------------------------------------------ */
 .bigNews-container {

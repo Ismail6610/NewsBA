@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="news-container">
                     <img src="${newsItem.imageUrl}" alt="Image">
                     <div class="news-content">
+                    <div class="overlay"></div>
                         <h2>${newsItem.title}</h2>
                         <p>${newsItem.description}</p>
                         <a href="${newsItem.link}" class="read-more">Read more</a>
