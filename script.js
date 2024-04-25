@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             imageUrl: "./assets/konzum.jpg",
             title: "PLJACKA U KONZUMU",
-            description: "...",
-            link: "./vijesti/taksi.html"
+            description: "Napeti trenuci odvijaju se u lokalnom Konzumu...",
+            link: "./vijesti/konzum.html"
         },
         {
             imageUrl: "./assets/mir.jpg",
@@ -67,13 +67,13 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             imageUrl: "./assets/autoput.jpg",
             title: " NAJNOVIJI PLANOVI ZA IZGRADNJU NOVOG AUTOPUTA   ",
-            description: "...",
+            description: " Uzbudljive vijesti dolaze iz sektora infrastrukture...",
             link: "./vijesti/autoput.html"
         },
         {
             imageUrl: "./assets/tramvaj.jpg",
             title: " NOVA GENERACIJA TRAMVAJA",
-            description: " ...",
+            description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
             link: "./vijesti/tramvaj.html"
         },
     ];
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imageUrl: "./assets/zeljo.jpg",
             title: "HAOS NA GRBAVICI",
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
-            link: "./vijesti/sudar.html"
+            link: "./vijesti/zeljo.html"
         },
     ];
 

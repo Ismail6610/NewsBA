@@ -1,10 +1,10 @@
 main{
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .details{
     display: flex;
@@ -12,21 +12,66 @@ main{
     width: 90vw;
     height: 70vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 h1{
    color: white;
    font-weight: bold;
-   font-size: 70px; 
+   font-size: 50px; 
 }
 
-p{
+.text{
     color: white;
     font-size: 25px;
 }
 
 .details img{
     height: 70vh;
-    width: 35vw;
+    width: 50vw;
     border-radius: 50px;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90vw;
+    margin-bottom: 150px;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+textarea{
+    background-color: #222;
+    border: solid 3px #333;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+textarea:hover{
+    background-color: white;
+    color: #222;
+    transition: 0.3s ease;
+
+}
+
+button{
+    background-color: transparent;
+    border: #333 3px solid;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: white;
+    color: #222;
 }
