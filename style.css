@@ -1,8 +1,3 @@
-:root{
-   --primary:white;
-   --text:#007bff;
-}
-
 
 
 *{
@@ -23,7 +18,6 @@ footer{
     border-top: 1px solid white;
     width: 100vw;
     height: 30vh;
-    
     position: relative;
     display: flex;
     flex-direction: column;
@@ -31,9 +25,6 @@ footer{
     justify-content: space-around;
 }
 
-footer p{
-    margin-bottom: 50px;
-}
 
 .footerlokacije{
     display:flex ;

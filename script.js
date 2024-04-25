@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./vijesti/sudar.html"
         },
         {
-            imageUrl: "./assets/.jpg",
-            title: "BEZOBRAZNI TAKSISTA",
-            description: "Taksista optuzen za pljackanje zene(36) u Sarajevu...",
+            imageUrl: "./assets/konzum.jpg",
+            title: "PLJACKA U KONZUMU",
+            description: "...",
             link: "./vijesti/taksi.html"
         },
         {
@@ -71,10 +71,10 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./vijesti/autoput.html"
         },
         {
-            imageUrl: "./assets/.jpg",
-            title: "UZNEMIRUJUCI NAPAD NA ZENU",
-            description: " Grad je u šoku nakon što je jedna žena...",
-            link: "./vijesti/napad.html"
+            imageUrl: "./assets/tramvaj.jpg",
+            title: " NOVA GENERACIJA TRAMVAJA",
+            description: " ...",
+            link: "./vijesti/tramvaj.html"
         },
     ];
 
