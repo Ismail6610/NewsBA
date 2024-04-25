@@ -23,6 +23,11 @@ footer{
     align-items: center;
     justify-content: space-around;
 }
+
+footer p{
+    margin-bottom: 50px;
+}
+
 .footerlokacije{
     display:flex ;
     flex-direction: row;
