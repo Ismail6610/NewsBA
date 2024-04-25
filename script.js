@@ -52,25 +52,25 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./vijesti/taksi.html"
         },
         {
-            imageUrl: "./assets/klix.jpg",
+            imageUrl: "./assets/vijesti1.jpg",
             title: "SUDAR NA CESTI",
             description: "U jutarnjim satima desila se nesreća...",
             link: "./vijesti/sudar.html"
         },
         {
-            imageUrl: "./assets/klix1.jpg",
+            imageUrl: "./assets/tramvaj1.jpg",
             title: "BEZOBRAZNI TAKSISTA",
             description: "Taksista optuzen za pljackanje zene(36) u Sarajevu...",
             link: "./vijesti/taksi.html"
         },
         {
-            imageUrl: "./assets/klix.jpg",
+            imageUrl: "./assets/konzum.jpg",
             title: "SUDAR NA CESTI",
             description: "U jutarnjim satima desila se nesreća...",
             link: "./vijesti/sudar.html"
         },
         {
-            imageUrl: "./assets/klix1.jpg",
+            imageUrl: "./assets/vijestt2.jpg",
             title: "BEZOBRAZNI TAKSISTA",
             description: "Taksista optuzen za pljackanje zene(36) u Sarajevu...",
             link: "./vijesti/taksi.html"
