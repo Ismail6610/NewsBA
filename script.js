@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const newsData = [
         {
             imageUrl: "./assets/sudar.jpg",
-            title: "SUDAR NA CESTI",
-            description: "U jutarnjim satima desila se nesreća...",
+            title: "SUDAR NA AUTOPUTU",
+            description: "Promet na glavnom autoputu je potpuno zaustavljen...",
             link: "./vijesti/sudar.html"
         },
         {
