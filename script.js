@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             newItem.innerHTML = `
                 <div class="news-container">
+                <div class="small-image-overlay"></div>
                     <img src="${newsItem.imageUrl}" alt="Image">
                     <div class="news-content">
                     <div class="overlay"></div>
@@ -41,40 +42,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsData = [
         {
-            imageUrl: "./assets/klix.jpg",
-            title: "SUDAR NA CESTI",
-            description: "U jutarnjim satima desila se nesreća...",
+            imageUrl: "./assets/sudar.jpg",
+            title: "SUDAR NA AUTOPUTU",
+            description: "Promet na glavnom autoputu je potpuno zaustavljen...",
             link: "./vijesti/sudar.html"
         },
         {
-            imageUrl: "./assets/klix1.jpg",
-            title: "BEZOBRAZNI TAKSISTA",
-            description: "Taksista optuzen za pljackanje zene(36) u Sarajevu...",
-            link: "./vijesti/taksi.html"
+            imageUrl: "./assets/konzum.jpg",
+            title: "PLJACKA U KONZUMU",
+            description: "Napeti trenuci odvijaju se u lokalnom Konzumu...",
+            link: "./vijesti/konzum.html"
         },
         {
-            imageUrl: "./assets/klix.jpg",
-            title: "SUDAR NA CESTI",
-            description: "U jutarnjim satima desila se nesreća...",
-            link: "./vijesti/sudar.html"
+            imageUrl: "./assets/mir.jpg",
+            title: "POVIJESNI MIRNI DOGOVOR OKONČAVA DESETLJEĆA POLITIČKIH NAPETOSTI",
+            description: "Danas je svijet svjedočio historijskom trenutku...",
+            link: "./vijesti/dogovor.html"
         },
         {
-            imageUrl: "./assets/klix1.jpg",
-            title: "BEZOBRAZNI TAKSISTA",
-            description: "Taksista optuzen za pljackanje zene(36) u Sarajevu...",
-            link: "./vijesti/taksi.html"
+            imageUrl: "./assets/mjesec.jpg",
+            title: "NOVA OTKRICA U ISTRAZIVANJU SVEMIRA",
+            description: "Uzbudljiva istraživanja  o svemiru ...",
+            link: "./vijesti/svemir.html"
         },
         {
-            imageUrl: "./assets/klix.jpg",
-            title: "SUDAR NA CESTI",
-            description: "U jutarnjim satima desila se nesreća...",
-            link: "./vijesti/sudar.html"
+            imageUrl: "./assets/autoput.jpg",
+            title: " NAJNOVIJI PLANOVI ZA IZGRADNJU NOVOG AUTOPUTA   ",
+            description: " Uzbudljive vijesti dolaze iz sektora infrastrukture...",
+            link: "./vijesti/autoput.html"
         },
         {
-            imageUrl: "./assets/klix1.jpg",
-            title: "BEZOBRAZNI TAKSISTA",
-            description: "Taksista optuzen za pljackanje zene(36) u Sarajevu...",
-            link: "./vijesti/taksi.html"
+            imageUrl: "./assets/tramvaj.jpg",
+            title: " NOVA GENERACIJA TRAMVAJA",
+            description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
+            link: "./vijesti/tramvaj.html"
         },
     ];
 
@@ -123,10 +124,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "./assets/klix7.jpg",
+            imageUrl: "./assets/zeljo.jpg",
             title: "HAOS NA GRBAVICI",
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
-            link: "./vijesti/sudar.html"
+            link: "./vijesti/zeljo.html"
         },
     ];
 
