@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
  
         const newsData = [
             {
-                imageUrl: "./assets/sprinterka.jpg",
+                imageUrl: "../assets/sprinterka.jpg",
                 title: "Novi Svjetski Rekord: Sprinterka Iz Kenije Ruši Granice Brzinom Od 100 Metara!",
                 description: "Kenijska sprinterka, poznata po nevjerojatnoj izdržljivosti i brzini, ostvarila je povijesni trenutak rušeći svjetski rekord na 100 metara...",
                 link: "./vijesti/sprinterka.html"
@@ -110,4 +110,56 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const newsList = document.querySelector('.bigContainer');
+    
+
+    function displayNews(news) {
+        newsList.innerHTML=' ';
+
+        news.forEach(newsItem2 => {
+            const newItem = document.createElement('div');
+            newItem.classList.add('news');
+
+            newItem.innerHTML = `
+            <div class="bigNews-container">
+            <div class="image-overlay"></div>
+                <img src="${newsItem2.imageUrl}" alt="Image">
+                <div class="bigNews-content">
+                    <h2>${newsItem2.title}</h2>
+                    <p>${newsItem2.description}</p>
+                    <a href="${newsItem2.link}" class="bigRead-more">Read more</a>
+                </div>
+            </div>
+            `;
+
+            newsList.appendChild(newItem);
+        });
+    }
+
+    
+
+    
+
+
+    const newsDataBig = [
+        {
+            imageUrl: "./assets/zeljo.jpg",
+            title: "HAOS NA GRBAVICI",
+            description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
+            link: "./vijesti/zeljo.html"
+        },
+        {
+            imageUrl: "./assets/tramvaj.jpg",
+            title: " NOVA GENERACIJA TRAMVAJA",
+            description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
+            link: "./vijesti/tramvaj.html"
+        },
+        
+    ];
+
+    displayNews(newsDataBig);
+});
 

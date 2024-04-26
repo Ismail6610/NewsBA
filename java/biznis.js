@@ -109,3 +109,117 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const newsList = document.querySelector('.bigContainer');
+    
+
+    function displayNews(news) {
+        newsList.innerHTML=' ';
+
+        news.forEach(newsItem2 => {
+            const newItem = document.createElement('div');
+            newItem.classList.add('news');
+
+            newItem.innerHTML = `
+            <div class="bigNews-container">
+            <div class="image-overlay"></div>
+                <img src="${newsItem2.imageUrl}" alt="Image">
+                <div class="bigNews-content">
+                    <h2>${newsItem2.title}</h2>
+                    <p>${newsItem2.description}</p>
+                    <a href="${newsItem2.link}" class="bigRead-more">Read more</a>
+                </div>
+            </div>
+            `;
+
+            newsList.appendChild(newItem);
+        });
+    }
+
+    
+
+    
+
+
+    const newsDataBig = [
+        {
+            imageUrl: "./assets/zeljo.jpg",
+            title: "HAOS NA GRBAVICI",
+            description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
+            link: "./vijesti/zeljo.html"
+        },
+        {
+            imageUrl: "./assets/tramvaj.jpg",
+            title: " NOVA GENERACIJA TRAMVAJA",
+            description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
+            link: "./vijesti/tramvaj.html"
+        },
+        
+    ];
+
+    displayNews(newsDataBig);
+});
+
+const businessNewsData = [
+    {
+        imageUrl: "./assets/startup.jpg",
+        title: "STARTUP SUCCESS STORIES",
+        description: "Inspiring entrepreneurial journeys in startups...",
+        link: "./biznis/startup_success_stories.html"
+    },
+    {
+        imageUrl: "./assets/financial_market.jpg",
+        title: "FINANCIAL MARKET OUTLOOK",
+        description: "Latest trends and forecasts in finance...",
+        link: "./biznis/financial_market_outlook.html"
+    },
+    {
+        imageUrl: "./assets/entrepreneurship.jpg",
+        title: "ENTREPRENEURSHIP TIPS",
+        description: "Valuable advice for aspiring entrepreneurs...",
+        link: "./biznis/entrepreneurship_tips.html"
+    },
+    {
+        imageUrl: "./assets/industry_analysis.jpg",
+        title: "INDUSTRY ANALYSIS",
+        description: "Insights into key business sectors...",
+        link: "./biznis/industry_analysis.html"
+    },
+    {
+        imageUrl: "./assets/leadership.jpg",
+        title: "LEADERSHIP STRATEGIES",
+        description: "Developing effective leadership skills...",
+        link: "./biznis/leadership_strategies.html"
+    },
+    {
+        imageUrl: "./assets/marketing.jpg",
+        title: "MARKETING TRENDS",
+        description: "Innovative strategies for brand growth...",
+        link: "./biznis/marketing_trends.html"
+    },
+    {
+        imageUrl: "./assets/finance.jpg",
+        title: "FINANCIAL PLANNING",
+        description: "Smart strategies for wealth management...",
+        link: "./biznis/financial_planning.html"
+    },
+    {
+        imageUrl: "./assets/technology.jpg",
+        title: "TECHNOLOGY IN BUSINESS",
+        description: "Driving innovation and growth in businesses...",
+        link: "./biznis/technology_in_business.html"
+    },
+    {
+        imageUrl: "./assets/global_markets.jpg",
+        title: "GLOBAL MARKET INSIGHTS",
+        description: "Navigating international business effectively...",
+        link: "./biznis/global_market_insights.html"
+    },
+    {
+        imageUrl: "./assets/strategy.jpg",
+        title: "BUSINESS STRATEGY",
+        description: "Developing effective plans for success...",
+        link: "./biznis/business_strategy.html"
+    }
+];
