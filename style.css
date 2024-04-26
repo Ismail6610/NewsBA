@@ -12,7 +12,11 @@ body{
     margin: 0;
     padding: 0;
 }
+.Header-Logo{
+    padding: 20px;
+    margin-top: 10px;
 
+}
 
 footer{
     border-top: 1px solid white;
@@ -84,6 +88,7 @@ i{
 
 footer p{
     color: white;
+    padding-bottom: 20px;
 }
 header{
     width: 100vw;

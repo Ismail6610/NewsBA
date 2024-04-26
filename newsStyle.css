@@ -39,17 +39,9 @@
 }
 
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth transition for overlay */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.Header-Logo{
+    padding: 10px;
+
 }
 
 .news-container:hover .overlay {
