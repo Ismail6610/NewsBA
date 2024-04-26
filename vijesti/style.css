@@ -1,0 +1,134 @@
+
+
+*{
+    font-family: Poppins;
+}
+
+body{
+    background-color: #222;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.Header-Logo{
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+footer{
+    border-top: 1px solid white;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footerlokacije{
+    display:flex ;
+    flex-direction: row;
+    width: 70vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.lokacija{
+    color: gray;
+    text-decoration: none;
+    list-style-type: none;
+    width: 11%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s all;
+}
+
+.lokacija:hover {
+    background-color: white;
+}
+
+.lokacija:hover .lokacija-a{
+   color:#222; 
+}
+
+.lokacija-a{
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.footerikone{
+    list-style-type: none;
+    color: white;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alignemnt-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;
+    padding: 10px;
+}
+i{
+    font-size: 2vw;
+    
+}
+
+
+footer p{
+    color: white;
+    padding-bottom: 20px;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 3px white;
+    margin-bottom: 50px;
+}
+.header-topics{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100vw;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer; ;
+}
+@media only screen and (max-width: 768px) {
+    .ContainerRow2 {
+        flex-direction: column;
+    }
+    .footerlokacije,
+    
+
+    .news-container {
+        width: calc(100% - 40px);
+    }
+}
+
+
+#search{
+    width: 20vw;
+    height: 5vh;
+    border-radius:20px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    margin-top: -300px;
+}
