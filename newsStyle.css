@@ -1,18 +1,14 @@
 .news-container {
-    width: 250px;
-    height: 250px;
     flex: 0 0 calc(50% - 20px); /* Adjusted width for two containers in a row */
     margin-bottom: 20px; /* Add some margin between containers */
     border-radius: 10px;
     overflow: hidden;
-    position: relative; /* Add position relative to the container */
-    height: 300px; /* Set a fixed height for the container */
-    width: 100%; /* Set a fixed width for the container */
+    position: relative; /* Add position relative to the container *//* Set a fixed width for the container */
     position: relative;
     background-color: #444;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    width: 15vw;
+    width: 20vw;
     height: 40vh;
     margin: 20px;
 
@@ -69,7 +65,6 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
     color: white;
 
 }
@@ -169,7 +164,7 @@
 
 
 .container-raspored{
-    width: 55vw;
+    width: 57vw;
     height: fit-content;
 }
 

@@ -129,6 +129,13 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
             link: "./vijesti/zeljo.html"
         },
+        {
+            imageUrl: "./assets/tramvaj.jpg",
+            title: " NOVA GENERACIJA TRAMVAJA",
+            description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
+            link: "./vijesti/tramvaj.html"
+        },
+        
     ];
 
     displayNews(newsDataBig);
