@@ -169,6 +169,7 @@
 }
 
 .bigContainer-raspored{
+    margin-top: 200px;
     height: 100vh;
     width: fit-content;
     display: flex;
