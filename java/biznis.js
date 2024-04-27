@@ -43,65 +43,66 @@ document.addEventListener('DOMContentLoaded', function() {
     const newsData = [
         {
             imageUrl: "./assets/startup.jpg",
-            title: "STARTUP SUCCESS STORIES: INSPIRING ENTREPRENEURIAL JOURNEYS",
-            description: "Explore the stories of successful startups, their entrepreneurial journeys, and the lessons learned along the way...",
-            link: "./biznis/startup_success_stories.html"
+            title: "USPJEŠNE PRIČE O STARTUPIMA",
+            description: "Otkrijte priče o uspješnim startupima i njihovim poduzetničkim putovanjima...",
+            link: "./biznis/uspesne_price_o_startupima.html"
         },
         {
             imageUrl: "./assets/financial_market.jpg",
-            title: "FINANCIAL MARKET OUTLOOK: TRENDS AND FORECASTS",
-            description: "Stay informed about the latest trends and forecasts in the financial markets, including stock market updates, investment strategies, and economic indicators...",
-            link: "./biznis/financial_market_outlook.html"
+            title: "FINANSIJSKA TRŽIŠTA: TRENDOVI I PROGNOZE",
+            description: "Budite informisani o najnovijim trendovima i prognozama na finansijskim tržištima...",
+            link: "./biznis/finansijska_trzista_trendovi_i_prognoze.html"
         },
         {
             imageUrl: "./assets/entrepreneurship.jpg",
-            title: "ENTREPRENEURSHIP TIPS: GUIDANCE FOR ASPIRING ENTREPRENEURS",
-            description: "Get valuable advice and guidance for aspiring entrepreneurs, including tips for starting and growing a successful business...",
-            link: "./biznis/entrepreneurship_tips.html"
+            title: "PODUZETNIČKI SAVJETI ZA ASPIRIRAJUĆE PODUZETNIKE",
+            description: "Dobijte vrijedne savjete i smjernice za aspirirajuće poduzetnike...",
+            link: "./biznis/poduzetnicki_savjeti.html"
         },
         {
             imageUrl: "./assets/industry_analysis.jpg",
-            title: "INDUSTRY ANALYSIS: INSIGHTS INTO KEY BUSINESS SECTORS",
-            description: "Gain insights into key business sectors with in-depth industry analysis, market trends, and competitive landscape assessments...",
-            link: "./biznis/industry_analysis.html"
+            title: "ANALIZA INDUSTRIJE: UVIDI U KLJUČNE POSLOVNE SEKTORE",
+            description: "Steknite uvide u ključne poslovne sektore putem analize industrije...",
+            link: "./biznis/analiza_industrije.html"
         },
         {
             imageUrl: "./assets/leadership.jpg",
-            title: "LEADERSHIP STRATEGIES: DEVELOPING EFFECTIVE LEADERS",
-            description: "Discover strategies for developing effective leadership skills, managing teams, and leading organizations to success...",
-            link: "./biznis/leadership_strategies.html"
+            title: "LIDERSKE STRATEGIJE: RAZVIJANJE EFIKASNIH LIDERA",
+            description: "Otkrijte strategije za razvoj efikasnih liderskih vještina...",
+            link: "./biznis/liderske_strategije.html"
         },
         {
             imageUrl: "./assets/marketing.jpg",
-            title: "MARKETING TRENDS: INNOVATIVE STRATEGIES FOR BRAND GROWTH",
-            description: "Explore the latest marketing trends and innovative strategies for brand growth, customer engagement, and market expansion...",
-            link: "./biznis/marketing_trends.html"
+            title: "TRENDOVI U MARKETINGU: INOVATIVNE STRATEGIJE ZA RAST BRENDA",
+            description: "Istražite najnovije trendove u marketingu i inovativne strategije za rast bren... ",
+            link: "./biznis/trendovi_u_marketingu.html"
         },
         {
             imageUrl: "./assets/finance.jpg",
-            title: "FINANCIAL PLANNING: SMART STRATEGIES FOR WEALTH MANAGEMENT",
-            description: "Learn smart strategies for financial planning, wealth management, and achieving financial goals for both individuals and businesses...",
-            link: "./biznis/financial_planning.html"
+            title: "FINANSIJSKO PLANIRANJE: PAMETNE STRATEGIJE ZA UPRAVLJANJE BOGATSTVOM",
+            description: "Naučite pametne strategije za finansijsko planiranje i upravljanje bogatstvom...",
+            link: "./biznis/finansijsko_planiranje.html"
         },
         {
             imageUrl: "./assets/technology.jpg",
-            title: "TECHNOLOGY IN BUSINESS: DRIVING INNOVATION AND GROWTH",
-            description: "Discover how technology is driving innovation and growth in businesses across industries, from digital transformation to emerging tech trends...",
-            link: "./biznis/technology_in_business.html"
+            title: "TEHNOLOGIJA U POSLOVANJU: PODSTICANJE INOVACIJA I RASTA",
+            description: "Otkrijte kako tehnologija podstiče inovacije i rast u poslovanju...",
+            link: "./biznis/tehnologija_u_poslovanju.html"
         },
         {
             imageUrl: "./assets/global_markets.jpg",
-            title: "GLOBAL MARKET INSIGHTS: NAVIGATING INTERNATIONAL BUSINESS",
-            description: "Stay updated on global market insights and trends to navigate international business opportunities and challenges effectively...",
-            link: "./biznis/global_market_insights.html"
+            title: "GLOBALNI TRŽIŠNI UVIDI: NAVIGACIJA MEĐUNARODNIM POSLOM",
+            description: "Budite ažurirani o globalnim tržišnim uvidima i trendovima...",
+            link: "./biznis/globalni_trzisni_uvidi.html"
         },
         {
             imageUrl: "./assets/strategy.jpg",
-            title: "BUSINESS STRATEGY: DEVELOPING EFFECTIVE PLANS FOR SUCCESS",
-            description: "Learn how to develop effective business strategies for growth, innovation, and sustainable success in dynamic market environments...",
-            link: "./biznis/business_strategy.html"
+            title: "POSLOVNA STRATEGIJA: RAZVIJANJE EFIKASNIH PLANOVA ZA USPJEH",
+            description: "Naučite kako razviti efikasne poslovne strategije za rast i inovacije...",
+            link: "./biznis/poslovna_strategija.html"
         }
     ];
+    
     
 
     displayNews(newsData);
