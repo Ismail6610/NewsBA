@@ -42,64 +42,64 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsData = [
         {
-            imageUrl: "./assets/startup.jpg",
-            title: "STARTUP SUCCESS STORIES: INSPIRING ENTREPRENEURIAL JOURNEYS",
-            description: "Explore the stories of successful startups, their entrepreneurial journeys, and the lessons learned along the way...",
-            link: "./biznis/startup_success_stories.html"
+            imageUrl: "./assets/quantum_computing.jpg",
+            title: "KVANTNO RAČUNANJE",
+            description: "Najnoviji napretci u ...",
+            link: "./scitech/kvantno_racunanje.html"
         },
         {
-            imageUrl: "./assets/financial_market.jpg",
-            title: "FINANCIAL MARKET OUTLOOK: TRENDS AND FORECASTS",
-            description: "Stay informed about the latest trends and forecasts in the financial markets, including stock market updates, investment strategies, and economic indicators...",
-            link: "./biznis/financial_market_outlook.html"
+            imageUrl: "./assets/artificial_intelligence.jpg",
+            title: "UMJETNA INTELIGENCIJA",
+            description: "Rapidni napredak u tehnologiji ...",
+            link: "./scitech/umjetna_inteligencija.html"
         },
         {
-            imageUrl: "./assets/entrepreneurship.jpg",
-            title: "ENTREPRENEURSHIP TIPS: GUIDANCE FOR ASPIRING ENTREPRENEURS",
-            description: "Get valuable advice and guidance for aspiring entrepreneurs, including tips for starting and growing a successful business...",
-            link: "./biznis/entrepreneurship_tips.html"
+            imageUrl: "./assets/space_exploration.jpg",
+            title: "ISTRAŽIVANJE SVEMIRA",
+            description: "Najnovija istraživanja i ...",
+            link: "./scitech/istrazivanje_svemira.html"
         },
         {
-            imageUrl: "./assets/industry_analysis.jpg",
-            title: "INDUSTRY ANALYSIS: INSIGHTS INTO KEY BUSINESS SECTORS",
-            description: "Gain insights into key business sectors with in-depth industry analysis, market trends, and competitive landscape assessments...",
-            link: "./biznis/industry_analysis.html"
+            imageUrl: "./assets/biotechnology.jpg",
+            title: "BIOTEHNOLOGIJA",
+            description: "Najnoviji napretci i inovacije ...",
+            link: "./scitech/biotehnologija.html"
         },
         {
-            imageUrl: "./assets/leadership.jpg",
-            title: "LEADERSHIP STRATEGIES: DEVELOPING EFFECTIVE LEADERS",
-            description: "Discover strategies for developing effective leadership skills, managing teams, and leading organizations to success...",
-            link: "./biznis/leadership_strategies.html"
+            imageUrl: "./assets/robotics.jpg",
+            title: "ROBOTIKA",
+            description: "Najnoviji razvoj i primjene...",
+            link: "./scitech/robotika.html"
         },
         {
-            imageUrl: "./assets/marketing.jpg",
-            title: "MARKETING TRENDS: INNOVATIVE STRATEGIES FOR BRAND GROWTH",
-            description: "Explore the latest marketing trends and innovative strategies for brand growth, customer engagement, and market expansion...",
-            link: "./biznis/marketing_trends.html"
+            imageUrl: "./assets/genetics.jpg",
+            title: "GENETIKA",
+            description: "Najnoviji napretci u genetičkom ...",
+            link: "./scitech/genetika.html"
         },
         {
-            imageUrl: "./assets/finance.jpg",
-            title: "FINANCIAL PLANNING: SMART STRATEGIES FOR WEALTH MANAGEMENT",
-            description: "Learn smart strategies for financial planning, wealth management, and achieving financial goals for both individuals and businesses...",
-            link: "./biznis/financial_planning.html"
+            imageUrl: "./assets/nanotechnology.jpg",
+            title: "NANOTEHNOLOGIJA",
+            description: "Najnoviji napretci u istraživanju ...",
+            link: "./scitech/nanotehnologija.html"
         },
         {
-            imageUrl: "./assets/technology.jpg",
-            title: "TECHNOLOGY IN BUSINESS: DRIVING INNOVATION AND GROWTH",
-            description: "Discover how technology is driving innovation and growth in businesses across industries, from digital transformation to emerging tech trends...",
-            link: "./biznis/technology_in_business.html"
+            imageUrl: "./assets/health_tech.jpg",
+            title: "ZDRAVSTVENA TEHNOLOGIJA",
+            description: "Inovacije u tehnologiji ...",
+            link: "./scitech/zdravstvena_tehnologija.html"
         },
         {
-            imageUrl: "./assets/global_markets.jpg",
-            title: "GLOBAL MARKET INSIGHTS: NAVIGATING INTERNATIONAL BUSINESS",
-            description: "Stay updated on global market insights and trends to navigate international business opportunities and challenges effectively...",
-            link: "./biznis/global_market_insights.html"
+            imageUrl: "./assets/energy_tech.jpg",
+            title: "ENERGETSKA TEHNOLOGIJA",
+            description: "Napredak u tehnologiji za ...",
+            link: "./scitech/energetska_tehnologija.html"
         },
         {
-            imageUrl: "./assets/strategy.jpg",
-            title: "BUSINESS STRATEGY: DEVELOPING EFFECTIVE PLANS FOR SUCCESS",
-            description: "Learn how to develop effective business strategies for growth, innovation, and sustainable success in dynamic market environments...",
-            link: "./biznis/business_strategy.html"
+            imageUrl: "./assets/cybersecurity.jpg",
+            title: "CYBER SIGURNOST",
+            description: "Najnoviji trendovi i strategije...",
+            link: "./scitech/cyber_sigurnost.html"
         }
     ];
     

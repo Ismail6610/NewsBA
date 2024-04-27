@@ -42,66 +42,68 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsData = [
         {
-            imageUrl: "./assets/startup.jpg",
-            title: "STARTUP SUCCESS STORIES: INSPIRING ENTREPRENEURIAL JOURNEYS",
-            description: "Explore the stories of successful startups, their entrepreneurial journeys, and the lessons learned along the way...",
-            link: "./biznis/startup_success_stories.html"
+            imageUrl: "./assets/moda.jpg",
+            title: "NAJNOVIJI TRENDOVI U MODI",
+            description: "Magazin donosi najnovije trendove...",
+            link: "./magazin/moda.html"
         },
         {
-            imageUrl: "./assets/financial_market.jpg",
-            title: "FINANCIAL MARKET OUTLOOK: TRENDS AND FORECASTS",
-            description: "Stay informed about the latest trends and forecasts in the financial markets, including stock market updates, investment strategies, and economic indicators...",
-            link: "./biznis/financial_market_outlook.html"
+            imageUrl: "./assets/kulinarstvo.jpg",
+            title: "RECEPTI ZA UKUSNE  SPECIJALITETE",
+            description: "Upoznajte se s receptima za ukusne ...",
+            link: "./magazin/kulinarstvo.html"
         },
         {
-            imageUrl: "./assets/entrepreneurship.jpg",
-            title: "ENTREPRENEURSHIP TIPS: GUIDANCE FOR ASPIRING ENTREPRENEURS",
-            description: "Get valuable advice and guidance for aspiring entrepreneurs, including tips for starting and growing a successful business...",
-            link: "./biznis/entrepreneurship_tips.html"
+            imageUrl: "./assets/putovanja.jpg",
+            title: "TOP DESTINACIJE ZA PROLJETNI ODMOR",
+            description: "Otkrijte najbolje destinacije ...",
+            link: "./magazin/putovanja.html"
         },
         {
-            imageUrl: "./assets/industry_analysis.jpg",
-            title: "INDUSTRY ANALYSIS: INSIGHTS INTO KEY BUSINESS SECTORS",
-            description: "Gain insights into key business sectors with in-depth industry analysis, market trends, and competitive landscape assessments...",
-            link: "./biznis/industry_analysis.html"
+            imageUrl: "./assets/zdravlje.jpg",
+            title: "SVE O ZDRAVLJU U PROLJEĆU",
+            description: "Magazin donosi korisne savjete ...",
+            link: "./magazin/zdravlje.html"
         },
         {
-            imageUrl: "./assets/leadership.jpg",
-            title: "LEADERSHIP STRATEGIES: DEVELOPING EFFECTIVE LEADERS",
-            description: "Discover strategies for developing effective leadership skills, managing teams, and leading organizations to success...",
-            link: "./biznis/leadership_strategies.html"
+            imageUrl: "./assets/tehnologija.jpg",
+            title: "NAJNOVIJE TEHNOLOŠKE INOVACIJE ",
+            description: "Saznajte o najnovijim tehnološkim ...",
+            link: "./magazin/tehnologija.html"
         },
         {
-            imageUrl: "./assets/marketing.jpg",
-            title: "MARKETING TRENDS: INNOVATIVE STRATEGIES FOR BRAND GROWTH",
-            description: "Explore the latest marketing trends and innovative strategies for brand growth, customer engagement, and market expansion...",
-            link: "./biznis/marketing_trends.html"
+            imageUrl: "./assets/kultura.jpg",
+            title: "KULTURNI DOGAĐAJI ",
+            description: "Pregled najzanimljivijih kulturnih događaja...",
+            link: "./magazin/kultura.html"
         },
         {
-            imageUrl: "./assets/finance.jpg",
-            title: "FINANCIAL PLANNING: SMART STRATEGIES FOR WEALTH MANAGEMENT",
-            description: "Learn smart strategies for financial planning, wealth management, and achieving financial goals for both individuals and businesses...",
-            link: "./biznis/financial_planning.html"
+            imageUrl: "./assets/umjetnost.jpg",
+            title: "UMJETNIČKI IZRAZI U PROLJEĆU",
+            description: "Upoznajte se s najnovijim umjetničkim...",
+            link: "./magazin/umjetnost.html"
         },
         {
-            imageUrl: "./assets/technology.jpg",
-            title: "TECHNOLOGY IN BUSINESS: DRIVING INNOVATION AND GROWTH",
-            description: "Discover how technology is driving innovation and growth in businesses across industries, from digital transformation to emerging tech trends...",
-            link: "./biznis/technology_in_business.html"
+            imageUrl: "./assets/obrazovanje.jpg",
+            title: "EDUKATIVNI SADRŽAJI ",
+            description: "Pronađite edukativne sadržaje ...",
+            link: "./magazin/obrazovanje.html"
         },
         {
-            imageUrl: "./assets/global_markets.jpg",
-            title: "GLOBAL MARKET INSIGHTS: NAVIGATING INTERNATIONAL BUSINESS",
-            description: "Stay updated on global market insights and trends to navigate international business opportunities and challenges effectively...",
-            link: "./biznis/global_market_insights.html"
+            imageUrl: "./assets/fitness.jpg",
+            title: "FITNESS TRENINZI ",
+            description: "Magazin donosi najefikasnije fitness treninge...",
+            link: "./magazin/fitness.html"
         },
         {
-            imageUrl: "./assets/strategy.jpg",
-            title: "BUSINESS STRATEGY: DEVELOPING EFFECTIVE PLANS FOR SUCCESS",
-            description: "Learn how to develop effective business strategies for growth, innovation, and sustainable success in dynamic market environments...",
-            link: "./biznis/business_strategy.html"
+            imageUrl: "./assets/lifestyle.jpg",
+            title: "LIFESTYLE TRENDOVI ",
+            description: "Saznajte o najnovijim lifestyle trendovima ...",
+            link: "./magazin/lifestyle.html"
         }
     ];
+    
+    
     
 
     displayNews(newsData);
