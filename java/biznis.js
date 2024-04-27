@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsData = [
         {
-            imageUrl: "../assets/startap_finasiranje.jpg",
+            imageUrl: "../assets/startap_finansiranje.jpg",
             title: "USPJEŠNE PRIČE O STARTUPIMA",
             description: "Otkrijte priče o uspješnim startupima i njihovim poduzetničkim putovanjima...",
             link: "./biznis/uspesne_price_o_startupima.html"
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./biznis/analiza_industrije.html"
         },
         {
-            imageUrl: "../assets/leadership.jpg",
+            imageUrl: "../assets/liderstvo.jpg",
             title: "LIDERSKE STRATEGIJE: RAZVIJANJE EFIKASNIH LIDERA",
             description: "Otkrijte strategije za razvoj efikasnih liderskih vještina...",
             link: "./biznis/liderske_strategije.html"
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./biznis/tehnologija_u_poslovanju.html"
         },
         {
-            imageUrl: "../assets/global_markets.jpg",
+            imageUrl: "../assets/globalni_biznis.jpg",
             title: "GLOBALNI TRŽIŠNI UVIDI: NAVIGACIJA MEĐUNARODNIM POSLOM",
             description: "Budite ažurirani o globalnim tržišnim uvidima i trendovima...",
             link: "./biznis/globalni_trzisni_uvidi.html"
