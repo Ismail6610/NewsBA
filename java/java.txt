@@ -2,61 +2,61 @@ SPORT
 
 const newsData = [
     {
-        imageUrl: "./assets/sprinterka.jpg",
+        imageUrl: "../assets/sprinterka.jpg",
         title: "Novi Svjetski Rekord",
         description: "Kenijska sprinterka, poznata po nevjerojatnoj izdržljivosti...",
         link: "./vijesti/sprinterka.html"
     },
     {
-        imageUrl: "./assets/tenis.jpg",
+        imageUrl: "../assets/tenis.jpg",
         title: "Najava Spektakla",
         description: "Teniski svijet drži dah dok se bliži ...",
         link: "./vijesti/tenis.html"
     },
     {
-        imageUrl: "./assets/bicikl.jpg",
+        imageUrl: "../assets/bicikl.jpg",
         title: "Pobjednički Povratak",
         description: "Nakon teške povrede koja je stavila ...",
         link: "./vijesti/bicikl.html"
     },
     {
-        imageUrl: "./assets/kosarka.jpg",
+        imageUrl: "../assets/kosarka.jpg",
         title: "Timski Trijumf",
         description: "Nacionalna košarkaška ekipa oduševila je ...",
         link: "./vijesti/kosarka.html"
     },
     {
-        imageUrl: "./assets/hokej.jpg",
+        imageUrl: "../assets/hokej.jpg",
         title: "Povijesna Pobjeda",
         description: "Ženski hokejaški tim stvara povijest osvajanjem ...",
         link: "./vijesti/hokej.html"
     },
     {
-        imageUrl: "./assets/fudbal.jpg",
+        imageUrl: "../assets/fudbal.jpg",
         title: "Transfer Sjajnih Proporcija",
         description: "Transfer vijeka u svijetu nogometa ...",
         link: "./vijesti/fudbal.html"
     },
     {
-        imageUrl: "./assets/tenis_pravila.jpg",
+        imageUrl: "../assets/tenis_pravila.jpg",
         title: "Rasprava O Prijedlogu",
         description: "Najava planiranih promjena u pravilima ...",
         link: "./vijesti/tenis_pravila.html"
     },
     {
-        imageUrl: "./assets/f1.jpg",
+        imageUrl: "../assets/f1.jpg",
         title: "Inovacija Na Stazi",
         description: "Svijet Formule 1 uzbuđen je najavom ...",
         link: "./vijesti/f1.html"
     },
     {
-        imageUrl: "./assets/planinarenje.jpg",
+        imageUrl: "../assets/planinarenje.jpg",
         title: "Najnoviji Izazov",
         description: "Planinari diljem svijeta...",
         link: "./vijesti/planinarenje.html"
     },
     {
-        imageUrl: "./assets/atletika.jpg",
+        imageUrl: "../assets/atletika.jpg",
         title: "Osvajanje Srca Publike",
         description: "Mladi atletičar osvaja srca publike ...",
         link: "./vijesti/atletika.html"
@@ -68,61 +68,61 @@ MAGAZIN
 
 const newsData = [
     {
-        imageUrl: "./assets/moda.jpg",
+        imageUrl: "../assets/moda.jpg",
         title: "NAJNOVIJI TRENDOVI U MODI",
         description: "Magazin donosi najnovije trendove...",
         link: "./magazin/moda.html"
     },
     {
-        imageUrl: "./assets/kulinarstvo.jpg",
+        imageUrl: "../assets/kulinarstvo.jpg",
         title: "RECEPTI ZA UKUSNE  SPECIJALITETE",
         description: "Upoznajte se s receptima za ukusne ...",
         link: "./magazin/kulinarstvo.html"
     },
     {
-        imageUrl: "./assets/putovanja.jpg",
+        imageUrl: "../assets/putovanja.jpg",
         title: "TOP DESTINACIJE ZA PROLJETNI ODMOR",
         description: "Otkrijte najbolje destinacije ...",
         link: "./magazin/putovanja.html"
     },
     {
-        imageUrl: "./assets/zdravlje.jpg",
+        imageUrl: "../assets/zdravlje.jpg",
         title: "SVE O ZDRAVLJU U PROLJEĆU",
         description: "Magazin donosi korisne savjete ...",
         link: "./magazin/zdravlje.html"
     },
     {
-        imageUrl: "./assets/tehnologija.jpg",
+        imageUrl: "../assets/tehnologija.jpg",
         title: "NAJNOVIJE TEHNOLOŠKE INOVACIJE ",
         description: "Saznajte o najnovijim tehnološkim ...",
         link: "./magazin/tehnologija.html"
     },
     {
-        imageUrl: "./assets/kultura.jpg",
+        imageUrl: "../assets/kultura.jpg",
         title: "KULTURNI DOGAĐAJI ",
         description: "Pregled najzanimljivijih kulturnih događaja...",
         link: "./magazin/kultura.html"
     },
     {
-        imageUrl: "./assets/umjetnost.jpg",
+        imageUrl: "../assets/umjetnost.jpg",
         title: "UMJETNIČKI IZRAZI U PROLJEĆU",
         description: "Upoznajte se s najnovijim umjetničkim...",
         link: "./magazin/umjetnost.html"
     },
     {
-        imageUrl: "./assets/obrazovanje.jpg",
+        imageUrl: "../assets/obrazovanje.jpg",
         title: "EDUKATIVNI SADRŽAJI ",
         description: "Pronađite edukativne sadržaje ...",
         link: "./magazin/obrazovanje.html"
     },
     {
-        imageUrl: "./assets/fitness.jpg",
+        imageUrl: "../assets/fitness.jpg",
         title: "FITNESS TRENINZI ",
         description: "Magazin donosi najefikasnije fitness treninge...",
         link: "./magazin/fitness.html"
     },
     {
-        imageUrl: "./assets/lifestyle.jpg",
+        imageUrl: "../assets/lifestyle.jpg",
         title: "LIFESTYLE TRENDOVI ",
         description: "Saznajte o najnovijim lifestyle trendovima ...",
         link: "./magazin/lifestyle.html"
@@ -134,55 +134,55 @@ biznis
 
 const businessNewsData = 
     {
-        imageUrl: "./assets/poslovni_plan.jpg",
+        imageUrl: "../assets/poslovni_plan.jpg",
         title: "KAKO NAPRAVITI EFIKASAN PLAN",
         description: "Saznajte korake i savjete ...",
         link: "./biznis/poslovni_plan.html"
     },
     {
-        imageUrl: "./assets/finansije.jpg",
+        imageUrl: "../assets/finansije.jpg",
         title: "TRENDOVI NA FINANSIJSKOM TRŽIŠTU",
         description: "Analiza najnovijih trendova ...",
         link: "./biznis/finansije.html"
     },
     {
-        imageUrl: "./assets/investicije.jpg",
+        imageUrl: "../assets/investicije.jpg",
         title: "NAJBOLJE INVESTICIJE ZA RAST ",
         description: "Pregled najboljih investicijskih ...",
         link: "./biznis/investicije.html"
     },
     {
-        imageUrl: "./assets/tehnoloski_startap.jpg",
+        imageUrl: "../assets/tehnoloski_startap.jpg",
         title: "KAKO POKRENUTI TEHNOLOŠKI STARTUP",
         description: "Koraci i savjeti za pokretanje ...",
         link: "./biznis/tehnoloski_startap.html"
     },
     {
-        imageUrl: "./assets/marketing.jpg",
+        imageUrl: "../assets/marketing.jpg",
         title: "NAJNOVIJE STRATEGIJE U DIGITALNOM MARKETINGU",
         description: "Saznajte o najnovijim strategijama ...",
         link: "./biznis/marketing.html"
     },
     {
-        imageUrl: "./assets/liderstvo.jpg",
+        imageUrl: "../assets/liderstvo.jpg",
         title: "LIDERSKE VJEŠTINE ",
         description: "Pregled ključnih liderstvo vještina ...",
         link: "./biznis/liderstvo.html"
     },
     {
-        imageUrl: "./assets/ekonomija.jpg",
+        imageUrl: "../assets/ekonomija.jpg",
         title: "ANALIZA EKONOMSKIH TRENDOVA",
         description: "Analiza ekonomskih trendova ...",
         link: "./biznis/ekonomija.html"
     },
     {
-        imageUrl: "./assets/startap_finansiranje.jpg",
+        imageUrl: "../assets/startap_finansiranje.jpg",
         title: "NAJBOLJI NAČINI FINANSIRANJA",
         description: "Pregled najboljih načina finansiranja ...",
         link: "./biznis/startap_finansiranje.html"
     },
     {
-        imageUrl: "./assets/globalni_biznis.jpg",
+        imageUrl: "../assets/globalni_biznis.jpg",
         title: "GLOBALNI BIZNIS TRENDOVI ",
         description: "Pregled globalnih biznis ...",
         link: "./biznis/globalni_biznis.html"
@@ -194,61 +194,61 @@ const businessNewsData =
 
     const newsData = [
     {
-        imageUrl: "./assets/moda.jpg",
+        imageUrl: "../assets/moda.jpg",
         title: "NAJNOVIJI TRENDOVI ",
         description: "Magazin donosi najnovije ...",
         link: "./lifestyle/moda.html"
     },
     {
-        imageUrl: "./assets/kulinarstvo.jpg",
+        imageUrl: "../assets/kulinarstvo.jpg",
         title: "RECEPTI ZA UKUSNE  SPECIJALITETE",
         description: "Upoznajte se s receptima za ukusne proljetne ...",
         link: "./lifestyle/kulinarstvo.html"
     },
     {
-        imageUrl: "./assets/putovanja.jpg",
+        imageUrl: "../assets/putovanja.jpg",
         title: "TOP DESTINACIJE ZA PROLJETNI ODMOR",
         description: "Otkrijte najbolje destinacije ...",
         link: "./lifestyle/putovanja.html"
     },
     {
-        imageUrl: "./assets/zdravlje.jpg",
+        imageUrl: "../assets/zdravlje.jpg",
         title: "SVE O ZDRAVLJU I VITALNOSTI U PROLJEĆU",
         description: "Magazin donosi korisne savjete za ...",
         link: "./lifestyle/zdravlje.html"
     },
     {
-        imageUrl: "./assets/tehnologija.jpg",
+        imageUrl: "../assets/tehnologija.jpg",
         title: "NAJNOVIJE TEHNOLOŠKE INOVACIJE ",
         description: "Saznajte o najnovijim tehnološkim ...",
         link: "./lifestyle/tehnologija.html"
     },
     {
-        imageUrl: "./assets/kultura.jpg",
+        imageUrl: "../assets/kultura.jpg",
         title: "KULTURNI DOGAĐAJI ",
         description: "Pregled najzanimljivijih kulturnih događaja ...",
         link: "./lifestyle/kultura.html"
     },
     {
-        imageUrl: "./assets/umjetnost.jpg",
+        imageUrl: "../assets/umjetnost.jpg",
         title: "UMJETNIČKI IZRAZI U PROLJEĆU",
         description: "Upoznajte se s najnovijim umjetničkim ...",
         link: "./lifestyle/umjetnost.html"
     },
     {
-        imageUrl: "./assets/obrazovanje.jpg",
+        imageUrl: "../assets/obrazovanje.jpg",
         title: "EDUKATIVNI SADRŽAJI ",
         description: "Pronađite edukativne sadržaje i...",
         link: "./lifestyle/obrazovanje.html"
     },
     {
-        imageUrl: "./assets/fitness.jpg",
+        imageUrl: "../assets/fitness.jpg",
         title: "FITNESS TRENINZI",
         description: "Magazin donosi najefikasnije fitness ...",
         link: "./lifestyle/fitness.html"
     },
     {
-        imageUrl: "./assets/lifestyle.jpg",
+        imageUrl: "../assets/lifestyle.jpg",
         title: "LIFESTYLE TRENDOVI ",
         description: "Saznajte o najnovijim lifestyle ...",
         link: "./lifestyle/lifestyle.html"
@@ -261,61 +261,61 @@ AUTA
 
 const newsData = [
     {
-        imageUrl: "./assets/electric_car.jpg",
+        imageUrl: "../assets/electric_car.jpg",
         title: "ELEKTRIČNA VOZILA",
         description: "Budućnost automobila i tehnologija ...",
         link: "./cars/elektricna_vozila.html"
     },
     {
-        imageUrl: "./assets/autonomous_car.jpg",
+        imageUrl: "../assets/autonomous_car.jpg",
         title: "AUTONOMNA VOŽNJA",
         description: "Rastuća tehnologija samovozećih automobila...",
         link: "./cars/autonomna_voznja.html"
     },
     {
-        imageUrl: "./assets/sports_car.jpg",
+        imageUrl: "../assets/sports_car.jpg",
         title: "SPORTSKI AUTOMOBILI",
         description: "Najnoviji modeli sportskih ...",
         link: "./cars/sportski_automobili.html"
     },
     {
-        imageUrl: "./assets/sustainable_car.jpg",
+        imageUrl: "../assets/sustainable_car.jpg",
         title: "OČUVANA MOBILNOST",
         description: "Ekološki prihvatljive opcije i ...",
         link: "./cars/ocuvana_mobilnost.html"
     },
     {
-        imageUrl: "./assets/luxury_car.jpg",
+        imageUrl: "../assets/luxury_car.jpg",
         title: "LUKSUZNI AUTOMOBILI",
         description: "Spoj stila i tehnologije u luksuznim ...",
         link: "./cars/luksuzni_automobili.html"
     },
     {
-        imageUrl: "./assets/classic_car.jpg",
+        imageUrl: "../assets/classic_car.jpg",
         title: "KLASIČNI AUTOMOBILI",
         description: "Očuvanje automobilske baštine ...",
         link: "./cars/klasicni_automobili.html"
     },
     {
-        imageUrl: "./assets/future_car.jpg",
+        imageUrl: "../assets/future_car.jpg",
         title: "BUDUĆNOST AUTOMOBILA",
         description: "Inovativni koncepti i ...",
         link: "./cars/buducnost_automobila.html"
     },
     {
-        imageUrl: "./assets/suv.jpg",
+        imageUrl: "../assets/suv.jpg",
         title: "SUV-OVI",
         description: "Svestrani i performantni za ...",
         link: "./cars/suvi.html"
     },
     {
-        imageUrl: "./assets/used_car.jpg",
+        imageUrl: "../assets/used_car.jpg",
         title: "TRŽIŠTE RABLJENIH AUTOMOBILA",
         description: "Savjeti za kupovinu i prodaju ...",
         link: "./cars/trziste_rabljenih_automobila.html"
     },
     {
-        imageUrl: "./assets/innovative_car.jpg",
+        imageUrl: "../assets/innovative_car.jpg",
         title: "INOVATIVNA AUTOMOBILSKA TEHNOLOGIJA",
         description: "Inovacije i trendovi u ...",
         link: "./cars/inovativna_automobilska_tehnologija.html"
@@ -327,61 +327,61 @@ SCITECH
 
 const newsData = [
     {
-        imageUrl: "./assets/quantum_computing.jpg",
+        imageUrl: "../assets/quantum_computing.jpg",
         title: "KVANTNO RAČUNANJE",
         description: "Najnoviji napretci u ...",
         link: "./scitech/kvantno_racunanje.html"
     },
     {
-        imageUrl: "./assets/artificial_intelligence.jpg",
+        imageUrl: "../assets/artificial_intelligence.jpg",
         title: "UMJETNA INTELIGENCIJA",
         description: "Rapidni napredak u tehnologiji ...",
         link: "./scitech/umjetna_inteligencija.html"
     },
     {
-        imageUrl: "./assets/space_exploration.jpg",
+        imageUrl: "../assets/space_exploration.jpg",
         title: "ISTRAŽIVANJE SVEMIRA",
         description: "Najnovija istraživanja i ...",
         link: "./scitech/istrazivanje_svemira.html"
     },
     {
-        imageUrl: "./assets/biotechnology.jpg",
+        imageUrl: "../assets/biotechnology.jpg",
         title: "BIOTEHNOLOGIJA",
         description: "Najnoviji napretci i inovacije ...",
         link: "./scitech/biotehnologija.html"
     },
     {
-        imageUrl: "./assets/robotics.jpg",
+        imageUrl: "../assets/robotics.jpg",
         title: "ROBOTIKA",
         description: "Najnoviji razvoj i primjene...",
         link: "./scitech/robotika.html"
     },
     {
-        imageUrl: "./assets/genetics.jpg",
+        imageUrl: "../assets/genetics.jpg",
         title: "GENETIKA",
         description: "Najnoviji napretci u genetičkom ...",
         link: "./scitech/genetika.html"
     },
     {
-        imageUrl: "./assets/nanotechnology.jpg",
+        imageUrl: "../assets/nanotechnology.jpg",
         title: "NANOTEHNOLOGIJA",
         description: "Najnoviji napretci u istraživanju ...",
         link: "./scitech/nanotehnologija.html"
     },
     {
-        imageUrl: "./assets/health_tech.jpg",
+        imageUrl: "../assets/health_tech.jpg",
         title: "ZDRAVSTVENA TEHNOLOGIJA",
         description: "Inovacije u tehnologiji ...",
         link: "./scitech/zdravstvena_tehnologija.html"
     },
     {
-        imageUrl: "./assets/energy_tech.jpg",
+        imageUrl: "../assets/energy_tech.jpg",
         title: "ENERGETSKA TEHNOLOGIJA",
         description: "Napredak u tehnologiji za ...",
         link: "./scitech/energetska_tehnologija.html"
     },
     {
-        imageUrl: "./assets/cybersecurity.jpg",
+        imageUrl: "../assets/cybersecurity.jpg",
         title: "CYBER SIGURNOST",
         description: "Najnoviji trendovi i strategije...",
         link: "./scitech/cyber_sigurnost.html"

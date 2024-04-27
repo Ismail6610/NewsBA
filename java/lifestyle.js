@@ -42,61 +42,61 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsData = [
         {
-            imageUrl: "./assets/moda.jpg",
+            imageUrl: "../assets/moda.jpg",
             title: "NAJNOVIJI TRENDOVI ",
             description: "Magazin donosi najnovije ...",
             link: "./lifestyle/moda.html"
         },
         {
-            imageUrl: "./assets/kulinarstvo.jpg",
+            imageUrl: "../assets/kulinarstvo.jpg",
             title: "RECEPTI ZA UKUSNE  SPECIJALITETE",
             description: "Upoznajte se s receptima za ukusne proljetne ...",
             link: "./lifestyle/kulinarstvo.html"
         },
         {
-            imageUrl: "./assets/putovanja.jpg",
+            imageUrl: "../assets/putovanja.jpg",
             title: "TOP DESTINACIJE ZA PROLJETNI ODMOR",
             description: "Otkrijte najbolje destinacije ...",
             link: "./lifestyle/putovanja.html"
         },
         {
-            imageUrl: "./assets/zdravlje.jpg",
+            imageUrl: "../assets/zdravlje.jpg",
             title: "SVE O ZDRAVLJU I VITALNOSTI U PROLJEĆU",
             description: "Magazin donosi korisne savjete za ...",
             link: "./lifestyle/zdravlje.html"
         },
         {
-            imageUrl: "./assets/tehnologija.jpg",
+            imageUrl: "../assets/tehnologija.jpg",
             title: "NAJNOVIJE TEHNOLOŠKE INOVACIJE ",
             description: "Saznajte o najnovijim tehnološkim ...",
             link: "./lifestyle/tehnologija.html"
         },
         {
-            imageUrl: "./assets/kultura.jpg",
+            imageUrl: "../assets/kultura.jpg",
             title: "KULTURNI DOGAĐAJI ",
             description: "Pregled najzanimljivijih kulturnih događaja ...",
             link: "./lifestyle/kultura.html"
         },
         {
-            imageUrl: "./assets/umjetnost.jpg",
+            imageUrl: "../assets/umjetnost.jpg",
             title: "UMJETNIČKI IZRAZI U PROLJEĆU",
             description: "Upoznajte se s najnovijim umjetničkim ...",
             link: "./lifestyle/umjetnost.html"
         },
         {
-            imageUrl: "./assets/obrazovanje.jpg",
+            imageUrl: "../assets/obrazovanje.jpg",
             title: "EDUKATIVNI SADRŽAJI ",
             description: "Pronađite edukativne sadržaje i...",
             link: "./lifestyle/obrazovanje.html"
         },
         {
-            imageUrl: "./assets/fitness.jpg",
+            imageUrl: "../assets/fitness.jpg",
             title: "FITNESS TRENINZI",
             description: "Magazin donosi najefikasnije fitness ...",
             link: "./lifestyle/fitness.html"
         },
         {
-            imageUrl: "./assets/lifestyle.jpg",
+            imageUrl: "../assets/lifestyle.jpg",
             title: "LIFESTYLE TRENDOVI ",
             description: "Saznajte o najnovijim lifestyle ...",
             link: "./lifestyle/lifestyle.html"
@@ -143,13 +143,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "./assets/zeljo.jpg",
+            imageUrl: "../assets/zeljo.jpg",
             title: "HAOS NA GRBAVICI",
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
             link: "./vijesti/zeljo.html"
         },
         {
-            imageUrl: "./assets/tramvaj.jpg",
+            imageUrl: "../assets/tramvaj.jpg",
             title: " NOVA GENERACIJA TRAMVAJA",
             description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
             link: "./vijesti/tramvaj.html"

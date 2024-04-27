@@ -46,61 +46,61 @@ document.addEventListener('DOMContentLoaded', function() {
  
     const newsData = [
         {
-            imageUrl: "./assets/electric_car.jpg",
+            imageUrl: "../assets/electric_car.jpg",
             title: "ELEKTRIČNA VOZILA",
             description: "Budućnost automobila i tehnologija ...",
             link: "./cars/elektricna_vozila.html"
         },
         {
-            imageUrl: "./assets/autonomous_car.jpg",
+            imageUrl: "../assets/autonomous_car.jpg",
             title: "AUTONOMNA VOŽNJA",
             description: "Rastuća tehnologija samovozećih automobila...",
             link: "./cars/autonomna_voznja.html"
         },
         {
-            imageUrl: "./assets/sports_car.jpg",
+            imageUrl: "../assets/sports_car.jpg",
             title: "SPORTSKI AUTOMOBILI",
             description: "Najnoviji modeli sportskih ...",
             link: "./cars/sportski_automobili.html"
         },
         {
-            imageUrl: "./assets/sustainable_car.jpg",
+            imageUrl: "../assets/sustainable_car.jpg",
             title: "OČUVANA MOBILNOST",
             description: "Ekološki prihvatljive opcije i ...",
             link: "./cars/ocuvana_mobilnost.html"
         },
         {
-            imageUrl: "./assets/luxury_car.jpg",
+            imageUrl: "../assets/luxury_car.jpg",
             title: "LUKSUZNI AUTOMOBILI",
             description: "Spoj stila i tehnologije u luksuznim ...",
             link: "./cars/luksuzni_automobili.html"
         },
         {
-            imageUrl: "./assets/classic_car.jpg",
+            imageUrl: "../assets/classic_car.jpg",
             title: "KLASIČNI AUTOMOBILI",
             description: "Očuvanje automobilske baštine ...",
             link: "./cars/klasicni_automobili.html"
         },
         {
-            imageUrl: "./assets/future_car.jpg",
+            imageUrl: "../assets/future_car.jpg",
             title: "BUDUĆNOST AUTOMOBILA",
             description: "Inovativni koncepti i ...",
             link: "./cars/buducnost_automobila.html"
         },
         {
-            imageUrl: "./assets/suv.jpg",
+            imageUrl: "../assets/suv.jpg",
             title: "SUV-OVI",
             description: "Svestrani i performantni za ...",
             link: "./cars/suvi.html"
         },
         {
-            imageUrl: "./assets/used_car.jpg",
+            imageUrl: "../assets/used_car.jpg",
             title: "TRŽIŠTE RABLJENIH AUTOMOBILA",
             description: "Savjeti za kupovinu i prodaju ...",
             link: "./cars/trziste_rabljenih_automobila.html"
         },
         {
-            imageUrl: "./assets/innovative_car.jpg",
+            imageUrl: "../assets/innovative_car.jpg",
             title: "INOVATIVNA AUTOMOBILSKA TEHNOLOGIJA",
             description: "Inovacije i trendovi u ...",
             link: "./cars/inovativna_automobilska_tehnologija.html"
@@ -150,13 +150,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "./assets/zeljo.jpg",
+            imageUrl: "../assets/zeljo.jpg",
             title: "HAOS NA GRBAVICI",
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
             link: "./vijesti/zeljo.html"
         },
         {
-            imageUrl: "./assets/tramvaj.jpg",
+            imageUrl: "../assets/tramvaj.jpg",
             title: " NOVA GENERACIJA TRAMVAJA",
             description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
             link: "./vijesti/tramvaj.html"

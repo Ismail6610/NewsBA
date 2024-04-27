@@ -42,61 +42,61 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsData = [
         {
-            imageUrl: "./assets/quantum_computing.jpg",
+            imageUrl: "../assets/quantum_computing.jpg",
             title: "KVANTNO RAČUNANJE",
             description: "Najnoviji napretci u ...",
             link: "./scitech/kvantno_racunanje.html"
         },
         {
-            imageUrl: "./assets/artificial_intelligence.jpg",
+            imageUrl: "../assets/artificial_intelligence.jpg",
             title: "UMJETNA INTELIGENCIJA",
             description: "Rapidni napredak u tehnologiji ...",
             link: "./scitech/umjetna_inteligencija.html"
         },
         {
-            imageUrl: "./assets/space_exploration.jpg",
+            imageUrl: "../assets/space_exploration.jpg",
             title: "ISTRAŽIVANJE SVEMIRA",
             description: "Najnovija istraživanja i ...",
             link: "./scitech/istrazivanje_svemira.html"
         },
         {
-            imageUrl: "./assets/biotechnology.jpg",
+            imageUrl: "../assets/biotechnology.jpg",
             title: "BIOTEHNOLOGIJA",
             description: "Najnoviji napretci i inovacije ...",
             link: "./scitech/biotehnologija.html"
         },
         {
-            imageUrl: "./assets/robotics.jpg",
+            imageUrl: "../assets/robotics.jpg",
             title: "ROBOTIKA",
             description: "Najnoviji razvoj i primjene...",
             link: "./scitech/robotika.html"
         },
         {
-            imageUrl: "./assets/genetics.jpg",
+            imageUrl: "../assets/genetics.jpg",
             title: "GENETIKA",
             description: "Najnoviji napretci u genetičkom ...",
             link: "./scitech/genetika.html"
         },
         {
-            imageUrl: "./assets/nanotechnology.jpg",
+            imageUrl: "../assets/nanotechnology.jpg",
             title: "NANOTEHNOLOGIJA",
             description: "Najnoviji napretci u istraživanju ...",
             link: "./scitech/nanotehnologija.html"
         },
         {
-            imageUrl: "./assets/health_tech.jpg",
+            imageUrl: "../assets/health_tech.jpg",
             title: "ZDRAVSTVENA TEHNOLOGIJA",
             description: "Inovacije u tehnologiji ...",
             link: "./scitech/zdravstvena_tehnologija.html"
         },
         {
-            imageUrl: "./assets/energy_tech.jpg",
+            imageUrl: "../assets/energy_tech.jpg",
             title: "ENERGETSKA TEHNOLOGIJA",
             description: "Napredak u tehnologiji za ...",
             link: "./scitech/energetska_tehnologija.html"
         },
         {
-            imageUrl: "./assets/cybersecurity.jpg",
+            imageUrl: "../assets/cybersecurity.jpg",
             title: "CYBER SIGURNOST",
             description: "Najnoviji trendovi i strategije...",
             link: "./scitech/cyber_sigurnost.html"
@@ -142,13 +142,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "./assets/zeljo.jpg",
+            imageUrl: "../assets/zeljo.jpg",
             title: "HAOS NA GRBAVICI",
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
             link: "./vijesti/zeljo.html"
         },
         {
-            imageUrl: "./assets/tramvaj.jpg",
+            imageUrl: "../assets/tramvaj.jpg",
             title: " NOVA GENERACIJA TRAMVAJA",
             description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
             link: "./vijesti/tramvaj.html"

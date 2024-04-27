@@ -43,61 +43,61 @@ document.addEventListener('DOMContentLoaded', function() {
  
     const newsData = [
         {
-            imageUrl: "./assets/sprinterka.jpg",
+            imageUrl: "../assets/sprinterka.jpg",
             title: "Novi Svjetski Rekord",
             description: "Kenijska sprinterka, poznata po nevjerojatnoj izdržljivosti...",
             link: "./vijesti/sprinterka.html"
         },
         {
-            imageUrl: "./assets/tenis.jpg",
+            imageUrl: "../assets/tenis.jpg",
             title: "Najava Spektakla",
             description: "Teniski svijet drži dah dok se bliži ...",
             link: "./vijesti/tenis.html"
         },
         {
-            imageUrl: "./assets/bicikl.jpg",
+            imageUrl: "../assets/bicikl.jpg",
             title: "Pobjednički Povratak",
             description: "Nakon teške povrede koja je stavila ...",
             link: "./vijesti/bicikl.html"
         },
         {
-            imageUrl: "./assets/kosarka.jpg",
+            imageUrl: "../assets/kosarka.jpg",
             title: "Timski Trijumf",
             description: "Nacionalna košarkaška ekipa oduševila je ...",
             link: "./vijesti/kosarka.html"
         },
         {
-            imageUrl: "./assets/hokej.jpg",
+            imageUrl: "../assets/hokej.jpg",
             title: "Povijesna Pobjeda",
             description: "Ženski hokejaški tim stvara povijest osvajanjem ...",
             link: "./vijesti/hokej.html"
         },
         {
-            imageUrl: "./assets/fudbal.jpg",
+            imageUrl: "../assets/fudbal.jpg",
             title: "Transfer Sjajnih Proporcija",
             description: "Transfer vijeka u svijetu nogometa ...",
             link: "./vijesti/fudbal.html"
         },
         {
-            imageUrl: "./assets/tenis_pravila.jpg",
+            imageUrl: "../assets/tenis_pravila.jpg",
             title: "Rasprava O Prijedlogu",
             description: "Najava planiranih promjena u pravilima ...",
             link: "./vijesti/tenis_pravila.html"
         },
         {
-            imageUrl: "./assets/f1.jpg",
+            imageUrl: "../assets/f1.jpg",
             title: "Inovacija Na Stazi",
             description: "Svijet Formule 1 uzbuđen je najavom ...",
             link: "./vijesti/f1.html"
         },
         {
-            imageUrl: "./assets/planinarenje.jpg",
+            imageUrl: "../assets/planinarenje.jpg",
             title: "Najnoviji Izazov",
             description: "Planinari diljem svijeta...",
             link: "./vijesti/planinarenje.html"
         },
         {
-            imageUrl: "./assets/atletika.jpg",
+            imageUrl: "../assets/atletika.jpg",
             title: "Osvajanje Srca Publike",
             description: "Mladi atletičar osvaja srca publike ...",
             link: "./vijesti/atletika.html"
@@ -149,13 +149,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "./assets/zeljo.jpg",
+            imageUrl: "../assets/zeljo.jpg",
             title: "HAOS NA GRBAVICI",
             description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
             link: "./vijesti/zeljo.html"
         },
         {
-            imageUrl: "./assets/tramvaj.jpg",
+            imageUrl: "../assets/tramvaj.jpg",
             title: " NOVA GENERACIJA TRAMVAJA",
             description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
             link: "./vijesti/tramvaj.html"
