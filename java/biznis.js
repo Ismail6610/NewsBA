@@ -54,13 +54,13 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./biznis/finansijska_trzista_trendovi_i_prognoze.html"
         },
         {
-            imageUrl: "../assets/entrepreneurship.jpg",
+            imageUrl: "../assets/tehnoloski_startap.jpg",
             title: "PODUZETNIČKI SAVJETI ZA ASPIRIRAJUĆE PODUZETNIKE",
             description: "Dobijte vrijedne savjete i smjernice za aspirirajuće poduzetnike...",
             link: "./biznis/poduzetnicki_savjeti.html"
         },
         {
-            imageUrl: "../assets/industry_analysis.jpg",
+            imageUrl: "../assets/investicije.jpg",
             title: "ANALIZA INDUSTRIJE: UVIDI U KLJUČNE POSLOVNE SEKTORE",
             description: "Steknite uvide u ključne poslovne sektore putem analize industrije...",
             link: "./biznis/analiza_industrije.html"
@@ -78,13 +78,13 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./biznis/trendovi_u_marketingu.html"
         },
         {
-            imageUrl: "../assets/finance.jpg",
+            imageUrl: "../assets/poslovni_plan.jpg",
             title: "FINANSIJSKO PLANIRANJE: PAMETNE STRATEGIJE ZA UPRAVLJANJE BOGATSTVOM",
             description: "Naučite pametne strategije za finansijsko planiranje i upravljanje bogatstvom...",
             link: "./biznis/finansijsko_planiranje.html"
         },
         {
-            imageUrl: "../assets/technology.jpg",
+            imageUrl: "../assets/tehnologija.jpg",
             title: "TEHNOLOGIJA U POSLOVANJU: PODSTICANJE INOVACIJA I RASTA",
             description: "Otkrijte kako tehnologija podstiče inovacije i rast u poslovanju...",
             link: "./biznis/tehnologija_u_poslovanju.html"
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "./biznis/globalni_trzisni_uvidi.html"
         },
         {
-            imageUrl: "../assets/strategy.jpg",
+            imageUrl: "../assets/planinarenje.jpg",
             title: "POSLOVNA STRATEGIJA: RAZVIJANJE EFIKASNIH PLANOVA ZA USPJEH",
             description: "Naučite kako razviti efikasne poslovne strategije za rast i inovacije...",
             link: "./biznis/poslovna_strategija.html"
@@ -145,17 +145,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "../assets/finance.jpg",
-            title: "FINANSIJSKO PLANIRANJE: PAMETNE STRATEGIJE ZA UPRAVLJANJE BOGATSTVOM",
-            description: "Naučite pametne strategije za finansijsko planiranje i upravljanje bogatstvom...",
-            link: "./biznis/finansijsko_planiranje.html"
+            imageUrl: "../assets/globalni_biznis.jpg",
+            title: "GLOBALNI TRŽIŠNI UVIDI: NAVIGACIJA MEĐUNARODNIM POSLOM",
+            description: "Budite ažurirani o globalnim tržišnim uvidima i trendovima...",
+            link: "./biznis/globalni_trzisni_uvidi.html"
         },
         {
-            imageUrl: "../assets/technology.jpg",
-            title: "TEHNOLOGIJA U POSLOVANJU: PODSTICANJE INOVACIJA I RASTA",
-            description: "Otkrijte kako tehnologija podstiče inovacije i rast u poslovanju...",
-            link: "./biznis/tehnologija_u_poslovanju.html"
-        },
+            imageUrl: "../assets/planinarenje.jpg",
+            title: "POSLOVNA STRATEGIJA: RAZVIJANJE EFIKASNIH PLANOVA ZA USPJEH",
+            description: "Naučite kako razviti efikasne poslovne strategije za rast i inovacije...",
+            link: "./biznis/poslovna_strategija.html"
+        }
         
     ];
 
