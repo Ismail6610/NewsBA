@@ -42,13 +42,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsData = [
         {
-            imageUrl: "../assets/startup.jpg",
+            imageUrl: "../assets/startap_finasiranje.jpg",
             title: "USPJEŠNE PRIČE O STARTUPIMA",
             description: "Otkrijte priče o uspješnim startupima i njihovim poduzetničkim putovanjima...",
             link: "./biznis/uspesne_price_o_startupima.html"
         },
         {
-            imageUrl: "../assets/financial_market.jpg",
+            imageUrl: "../assets/finansije.jpg",
             title: "FINANSIJSKA TRŽIŠTA: TRENDOVI I PROGNOZE",
             description: "Budite informisani o najnovijim trendovima i prognozama na finansijskim tržištima...",
             link: "./biznis/finansijska_trzista_trendovi_i_prognoze.html"
@@ -145,16 +145,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "../assets/zeljo.jpg",
-            title: "HAOS NA GRBAVICI",
-            description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
-            link: "./vijesti/zeljo.html"
+            imageUrl: "../assets/finance.jpg",
+            title: "FINANSIJSKO PLANIRANJE: PAMETNE STRATEGIJE ZA UPRAVLJANJE BOGATSTVOM",
+            description: "Naučite pametne strategije za finansijsko planiranje i upravljanje bogatstvom...",
+            link: "./biznis/finansijsko_planiranje.html"
         },
         {
-            imageUrl: "../assets/tramvaj.jpg",
-            title: " NOVA GENERACIJA TRAMVAJA",
-            description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
-            link: "./vijesti/tramvaj.html"
+            imageUrl: "../assets/technology.jpg",
+            title: "TEHNOLOGIJA U POSLOVANJU: PODSTICANJE INOVACIJA I RASTA",
+            description: "Otkrijte kako tehnologija podstiče inovacije i rast u poslovanju...",
+            link: "./biznis/tehnologija_u_poslovanju.html"
         },
         
     ];

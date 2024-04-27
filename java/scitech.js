@@ -142,16 +142,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const newsDataBig = [
         {
-            imageUrl: "../assets/zeljo.jpg",
-            title: "HAOS NA GRBAVICI",
-            description: "Zeljeznicar pobjedio rivala sa nevjerovatnih 12-0",
-            link: "./vijesti/zeljo.html"
+            imageUrl: "../assets/nanotechnology.jpg",
+            title: "NANOTEHNOLOGIJA",
+            description: "Najnoviji napretci u istraživanju ...",
+            link: "./scitech/nanotehnologija.html"
         },
         {
-            imageUrl: "../assets/tramvaj.jpg",
-            title: " NOVA GENERACIJA TRAMVAJA",
-            description: " Grad Sarajevo ulazi u novu eru javnog prijevoza...",
-            link: "./vijesti/tramvaj.html"
+            imageUrl: "../assets/health_tech.jpg",
+            title: "ZDRAVSTVENA TEHNOLOGIJA",
+            description: "Inovacije u tehnologiji ...",
+            link: "./scitech/zdravstvena_tehnologija.html"
         },
         
     ];
