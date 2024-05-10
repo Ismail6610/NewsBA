@@ -34,6 +34,19 @@
             </div>
 
 <script>
+    function spasikommnetar(){
+    var kommentar= document.getElementById("kommentar1").value;
+
+    sessionStorage.setItem("kommentar", kommentar);
+
+    console.log(sessionStorage.getItem("kommentar"))
+  
+
+
+
+}
+
+
 // Function to retrieve comment from sessionStorage and display it as a list
 function displayComment() {
     var kommentar = sessionStorage.getItem("kommentar");
