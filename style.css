@@ -37,6 +37,8 @@ footer{
     height: 10vh;
     align-items: center;
     justify-content: space-between;
+    text-decoration: none;
+    color: blue;
     
 }
 .lokacija{
