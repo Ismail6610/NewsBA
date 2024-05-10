@@ -59,6 +59,25 @@
             <textarea name="textarea" id="kommentar1" cols="50" rows="5" placeholder="Ostavi komentar..."></textarea>
             
             <button  onclick="spasikommnetar()">Submit</button>
+
+            <H1>Kommnetari</H1>
+            <div id="commentList">
+                <li id="kommentarli"></li>
+            </div>
+
+<script>
+// Function to retrieve comment from sessionStorage and display it as a list
+function displayComment() {
+    var kommentar = sessionStorage.getItem("kommentar");
+
+   document.getElementById( "kommentarli" ).innerHTML = "Hamza Cehajic: " +kommentar; 
+}
+
+// Call the function to display the comment when the page loads
+window.onload = function() {
+    displayComment();
+};
+</script>
         </div>
         </main>
 
@@ -69,7 +88,7 @@
             <li class="lokacija"><a href="#" class="lokacija-a">Početna</a></li>
             <li class="lokacija"><a href="#" class="lokacija-a">Dojavite vijest</a></li>
             <li class="lokacija"><a href="#" class="lokacija-a">Impressum</a></li>
-            <li class="lokacija"><a href="#" class="lokacija-a">Komentari</a></li>
+            <li class="lokacija"><a href="komentari.html" class="lokacija-a">Komentari</a></li>
             <li class="lokacija"><a href="#" class="lokacija-a">Kontakt</a></li>
             <li class="lokacija"><a href="#" class="lokacija-a">O nama</a></li>
             <li class="lokacija"><a href="#" class="lokacija-a">Oglašavanje</a></li>
@@ -92,5 +111,12 @@
         <p>Copyright 2000-2023 NewsBA d.o.o. Sarajevo. ISSN 0623-3094. Sva prava zadržana. Zabranjeno preuzimanje sadržaja bez dozvole izdavača.</p>
 
     </footer>
-    <script type="text/javascrpit" src="komentari.js"></script>
+    <script >function spasikommnetar(){
+        var kommentar= document.getElementById("kommentar1").value;
+    
+        sessionStorage.setItem("kommentar", kommentar);
+    
+        console.log(sessionStorage.getItem("kommentar"))
+    
+    }</script>
 </html>

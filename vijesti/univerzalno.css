@@ -16,6 +16,40 @@ main{
   
 
 }
+
+#kommentarli {
+    list-style-type: none; /* Remove bullet points */
+    background-color: #f9f9f9; /* Background color */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add margin at the bottom */
+    border-radius: 5px; /* Add border radius */
+}
+
+/* newsStyle.css */
+
+/* Style for kommentarli */
+#kommentarli {
+    list-style-type: none; /* Remove bullet points */
+    background-color: #f9f9f9; /* Background color */
+    padding: 15px; /* Add padding */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Style for commenter's name */
+#kommentarli .commenter {
+    font-weight: bold; /* Bold font weight */
+    color: #333; /* Dark text color */
+    margin-bottom: 5px; /* Add margin at the bottom */
+}
+
+/* Style for comment text */
+#kommentarli .comment-text {
+    color: #666; /* Medium text color */
+    font-size: 16px; /* Font size */
+}
+
 h1{
    color: white;
    font-weight: bold;

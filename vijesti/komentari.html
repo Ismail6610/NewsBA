@@ -28,11 +28,25 @@
                     <li class="lokacija"><a href="https://forum.klix.ba/" class="lokacija-a">Forum</a></li>
                 </ul>
         </header>
-        
-       
-  
-        
+        <main>
+            <div id="commentList">
+                <li id="kommentarli"></li>
+            </div>
 
+<script>
+// Function to retrieve comment from sessionStorage and display it as a list
+function displayComment() {
+    var kommentar = sessionStorage.getItem("kommentar");
+
+   document.getElementById( "kommentarli" ).innerHTML = "Hamza Cehajic: " +kommentar; 
+}
+
+// Call the function to display the comment when the page loads
+window.onload = function() {
+    displayComment();
+};
+</script>
+        </main>
 
 
 
@@ -69,5 +83,6 @@
         <script src="script.js"></script>
         <script src="https://kit.fontawesome.com/4ac4a9c811.js" crossorigin="anonymous"></script>
     </body>
+
 </html>
 

@@ -4,5 +4,9 @@ function spasikommnetar(){
     sessionStorage.setItem("kommentar", kommentar);
 
     console.log(sessionStorage.getItem("kommentar"))
+  
+
+
 
 }
+
